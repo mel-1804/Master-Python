@@ -19,8 +19,7 @@ def divisible_binary(nums):
         if (int(list_bin, 2)) % 5 == 0:
             result.append(list_bin)
 
-    return ','.join(list_bin)
+    return ','.join(result)
 
 print(divisible_binary("0100,0011,1010,1001,1111"))
 
-# esto no resulta....
