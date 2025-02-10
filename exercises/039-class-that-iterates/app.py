@@ -14,3 +14,5 @@ obj = Iterator(50)
 for num in obj.divisible_by_seven():
     print (num)
 
+
+
