@@ -1,8 +1,12 @@
 # Your code here
 class MathOperations:
-    def __init__(self, numbers):
-        self.numbers = numbers
-
+   
     @staticmethod
-    def add_numbers(self)
-        return 
+    def add_numbers(num1, num2):
+        return num1 + num2
+
+
+math_operations_instance = MathOperations()
+sum_of_numbers = MathOperations.add_numbers(10, 15)
+
+print(sum_of_numbers)
